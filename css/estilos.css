@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url(cabecera.css);
+@import url(banner.css);
+@import url(ofertas.css);
+@import url(anuncio.css);
+@import url(productos.css);
+@import url(footer.css);
+
+:root{
+    --rosa: #d03b40;
+    --beige: #ded6c0;
+    --blanco: #f5f0ed;
+    --gris: #241d1b;
+
+    --textoClaro: #f5f0ed;
+    --textoOscuro: #3c3c3b;
+
+    --openSans: 'Open Sans' , sans-serif;
+}
+
+strong{
+    font-weight: 700;
+}
+
+body{
+    font-family: var(--openSans);
+}

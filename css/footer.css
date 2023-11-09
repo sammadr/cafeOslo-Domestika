@@ -1,0 +1,6 @@
+.footer{
+    background: var(--gris);
+    padding:  3rem 2rem 2rem 3rem;
+    color: var(--textoClaro);
+    font-family: var(--openSans)
+}

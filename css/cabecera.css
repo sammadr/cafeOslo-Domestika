@@ -1,0 +1,115 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.tirador-boton{
+    text-decoration: none;
+    color: var(--beige);
+    padding: 5vmin 4vmin;
+    background: var(--rosa);
+    border-radius: 5px;
+}
+
+.cabecera__menu--lista{
+    display: flex;
+}
+
+.cabecera__menu--items{
+    list-style: none;
+}
+
+.cabecera__menu--link{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem;
+    color:  var(--blanco);
+}
+
+.cabecera__menu--link:hover{
+    text-decoration: underline;
+}
+
+
+.cabecera__menu .cabecera__menu--link{
+    display: block;
+    text-decoration: none;
+    color: var(--blanco);
+    border-radius: 1px solid #f5f0ed;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .js .cabecera {
+        position: relative; 
+        text-align: center;
+    }
+    
+    .js .cabecera__menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        background: var(--rosa);
+        position: absolute; 
+        top: 100%; 
+        left: 0;
+        width: 100%;
+        z-index: 2; 
+    }
+    
+    .js .cabecera__menu--lista {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .js .cabecera__menu--items {
+        list-style: none;
+    }
+
+    .js .cabecera__menu--link {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 1rem;
+        color: var(--textoClaro);
+        text-align: center;  
+        padding-bottom: 4vmin;
+        border-bottom: 1px solid rgba( 255, 255, 255, .4);
+    }
+
+    .js .cabecera__menu--link:hover{
+        transform: scale(1.1);
+    }
+
+    .js .cabecera__menu.menu-desplegado{
+        max-height: 90vmin;
+    } 
+} 
+
+
+@media screen and (min-width: 601px) {
+    
+    .tirador-boton{
+        display: none;
+    }
+
+    .cabecera__menu--link:hover{
+        text-decoration: underline;
+    }
+}
+
+
+/* Estilos para tablets en orientación horizontal */
+@media (min-height: 768px) and (max-height: 1280px){
+    .cabecera__menu--link{
+        font-size: 1.8vw;
+    }
+}
