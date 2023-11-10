@@ -31,3 +31,7 @@ Este proyecto refleja mi evolución desde 2021 y mi compromiso con el aprendizaj
 ## 🥞 Acceso al Proyecto: ☕
 
 Por favor, visita esta nueva versión: [Café Oslo 2023](https://sammadr.github.io/cafeOslo-Domestika/)
+
+## 🍽️ Diseño en Figma:
+
+También puedes acceder al diseño en Figma que realicé como práctica para mejorar mis habilidades: [Café Oslo en Figma](https://www.figma.com/community/file/1304212061210578767/cafeoslo-2023)
