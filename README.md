@@ -4,6 +4,8 @@
 
 Este es el proyecto final del curso **"Introducción al Desarrollo Web Responsive con HTML y CSS"** impartido por Javier UsoBiaga Ferrer en Domestika. Esta versión representa un gran salto desde mi primer intento en 2021. El proyecto consiste en la creación de una página web para una cafetería ficticia, diseñada para ser compatible tanto en dispositivos móviles como en desktop, y aplicar todo lo que he aprendido a lo largo del curso.
 
+![logo](https://github.com/sammadr/sammadr/blob/main/cafe-oslo.png)
+
 ### 🥪 Actualización: 
 En este repositorio, encontrarás una versión mejorada y actualizada del proyecto original. Desde mi primer intento en 2021, he experimentado un crecimiento significativo en mis habilidades y conocimientos. Las principales mejoras incluyen:
 
