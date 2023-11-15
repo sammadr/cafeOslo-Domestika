@@ -1,37 +1,26 @@
 .banner{
-    position: relative;
     font-family: var(--openSans);
-}
-
-.banner__contenedor--img{
+    background: url("../assets/Fondo1.jpg") no-repeat center / cover;
     width: 100%;
     height: 100vh;
-    background: url("../assets/Fondo1.jpg") no-repeat center / cover;
 }
 
 .banner__titulo{
-    text-transform: uppercase;
-    font-size: 4vw;
-    position: absolute;
     text-align: center;
     color: var(--textoClaro);
-    width: 100%;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 4vw;
     text-shadow: 0 4px 4px rgba(0,0,0,0.75);
+    padding-top: 15vmin;
+
 }
 
 .banner__barra{
-    position: absolute;
     text-align: center;
     color: var(--blanco);
     font-weight: 300;
     font-size: 2vw;
-    width: 100%;
-    left: 50%;
-    top: 63%;
-    transform: translate(-50%, -50%);
+    padding-top: 10vmin;
     text-shadow: 0 4px 4px rgba(0,0,0,0.75);
 }
 .banner__descripcion{
@@ -48,7 +37,7 @@
 
 /* Estilos para dispositivos mobiles*/
 @media (max-width: 768px) {
-    .banner__contenedor--img{
+    .banner{
         height: 90vh;
     }
 
@@ -57,27 +46,47 @@
     }
 
     .banner__barra{
-        top: 55%;
+        font-size: 5vmin;
     }
 
     .banner__descripcion{
         font-size: 4vw;
-        top: 70%;
+        /* top: 70%; */
+        padding-bottom: 70vmin;
+    }
+}
+
+/* Media query para el Samsung Galaxy Z Flip3 (2021) */
+@media only screen and (max-width: 360px) and (max-height: 880px) {
+    .banner{
+        height: 80vh;
+    }
+    .banner__titulo{
+        font-size: 10vw;
+    }
+    .banner__barra{
+        font-size: 7vmin;
+    }
+
+    .banner__descripcion{
+        font-size: 5vw;
+        padding-bottom: 90vmin;
+        
     }
 }
 
 /* Estilos para tablets en orientación horizontal */
 @media (min-height: 768px) and (max-height: 1280px){
     .banner__titulo{
-        font-size: 6vw;
+        font-size: 10vw;
     }
 
     .banner__barra{
-        top: 55%;
+        font-size: 5vmin;
     }
 
     .banner__descripcion{
         font-size: 3vw;
-        top: 70%;
+        padding-bottom: 60vmin;
     }
 }
