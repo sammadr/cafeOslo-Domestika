@@ -6,10 +6,7 @@
 .anuncio__img{
     width: 100%;
     height: 90vmin;
-    background-image: url("../assets/Fondo2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url("../assets/Fondo2.jpg") no-repeat center / cover;
 }
 
 .anuncio__titulo{
