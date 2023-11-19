@@ -9,7 +9,7 @@ Este es el proyecto final del curso **"Introducción al Desarrollo Web Responsiv
 ### 🥪 Actualización: 
 En este repositorio, encontrarás una versión mejorada y actualizada del proyecto original. Desde mi primer intento en 2021, he experimentado un crecimiento significativo en mis habilidades y conocimientos. Las principales mejoras incluyen:
 
-- **Código más entendible y organizado:** He aplicado la metodología BEM (Block Element Modifier) para mantener un código limpio y comprensible.
+- **Arquitectura CSS:** He aplicado la metodología BEM (Block Element Modifier) para mantener un código limpio y comprensible. Esto es una muestra de mi compromiso con las buenas prácticas de desarrollo web.
   
 - **Uso de Flexbox y Media Queries:** Ahora, puedo utilizar Flexbox y Media Queries con confianza y conciencia, lo que me permite crear una experiencia más receptiva y adaptable tanto en dispositivos móviles como en pantallas de escritorio.
   
@@ -19,7 +19,6 @@ En este repositorio, encontrarás una versión mejorada y actualizada del proyec
   
 - **JavaScript sin modificaciones:** El archivo JavaScript proporcionado en el curso se ha vuelto a utilizar, y esta vez, no hubo problemas en su implementación. Esto demuestra mi crecimiento en la comprensión de JavaScript.
 
-- **Arquitectura CSS:** Aunque este es un proyecto pequeño, he incorporado la arquitectura Atomic Design para lograr un código más organizado y entendible. Esto es una muestra de mi compromiso con las buenas prácticas de desarrollo web.
 
 ## 🌮 Tecnologías utilizadas:
 - HTML5.
